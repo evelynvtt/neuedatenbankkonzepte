@@ -1,0 +1,65 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.profile-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 2rem;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.profile-stats div {
+  margin: 0 15px;
+}
+
+.profile-stats strong {
+  display: block;
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.tweets {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tweet {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tweet:last-child {
+  margin-bottom: 0;
+}
+
+.tweet-text {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+}
